@@ -27,19 +27,19 @@
 
     </com.eleks.data_platform.facedetection.ui.camera.CameraSourcePreview>
 
-     <ImageButton
-         android:id="@+id/captureFront"
-         android:layout_width="50pt"
-         android:layout_height="50pt"
-         android:layout_centerInParent="true"
-         android:scaleType="centerCrop"
-         android:src="@drawable/photo"
-         android:onClick="takePhoto"
-         android:background="@android:color/transparent"
-         app:layout_constraintBottom_toBottomOf="parent"
-         app:layout_constraintLeft_toLeftOf="parent"
-         app:layout_constraintRight_toRightOf="parent"
-         android:layout_marginBottom="7dp" />
+    <ImageButton
+        android:id="@+id/captureFront"
+        android:layout_width="50pt"
+        android:layout_height="50pt"
+        android:layout_centerInParent="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/photo"
+        android:onClick="takePhoto"
+        android:background="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginBottom="7dp" />
 
 
 </android.support.constraint.ConstraintLayout>
